@@ -1,0 +1,249 @@
+cuda/8.0.61(13):ERROR:150: Module 'cuda/8.0.61' conflicts with the currently loaded module(s) 'cuda/8.0'
+cuda/8.0.61(13):ERROR:102: Tcl command execution failed: conflict $name
+
+Using TensorFlow backend.
+2017-11-28 17:47:38.468814: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-28 17:47:38.468925: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-28 17:47:38.468945: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-28 17:47:38.468961: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-28 17:47:38.468975: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-28 17:47:38.530558: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-28 17:47:38.530889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GRID K1
+major: 3 minor: 0 memoryClockRate (GHz) 0.8495
+pciBusID 0000:00:06.0
+Total memory: 3.94GiB
+Free memory: 3.92GiB
+2017-11-28 17:47:38.530930: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-28 17:47:38.530952: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-28 17:47:38.530973: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K1, pci bus id: 0000:00:06.0)
+Indexing word vectors.
+Found 16176 word vectors.
+Processing text dataset
+Found 2000 texts
+Found 36710 unique tokens.
+('Shape of data tensor:', (2000, 1000))
+('Shape of label tensor:', (2000, 2))
+Preparing embedding matrix.
+Repetition:1
+Model initialized...
+Repetition:1 Iteration 1
+Number of current samples:10
+Repetition:1 Iteration 2
+Number of current samples:20
+Repetition:1 Iteration 3
+Number of current samples:30
+Repetition:1 Iteration 4
+Number of current samples:40
+Repetition:1 Iteration 5
+Number of current samples:50
+Repetition:1 Iteration 6
+Number of current samples:60
+Repetition:1 Iteration 7
+Number of current samples:70
+Repetition:1 Iteration 8
+Number of current samples:80
+Repetition:1 Iteration 9
+Number of current samples:90
+Repetition:1 Iteration 10
+Number of current samples:100
+Repetition:2
+Model initialized...
+Repetition:2 Iteration 1
+Number of current samples:10
+Repetition:2 Iteration 2
+Number of current samples:20
+Repetition:2 Iteration 3
+Number of current samples:30
+Repetition:2 Iteration 4
+Number of current samples:40
+Repetition:2 Iteration 5
+Number of current samples:50
+Repetition:2 Iteration 6
+Number of current samples:60
+Repetition:2 Iteration 7
+Number of current samples:70
+Repetition:2 Iteration 8
+Number of current samples:80
+Repetition:2 Iteration 9
+Number of current samples:90
+Repetition:2 Iteration 10
+Number of current samples:100
+Repetition:3
+Model initialized...
+Repetition:3 Iteration 1
+Number of current samples:10
+Repetition:3 Iteration 2
+Number of current samples:20
+Repetition:3 Iteration 3
+Number of current samples:30
+Repetition:3 Iteration 4
+Number of current samples:40
+Repetition:3 Iteration 5
+Number of current samples:50
+Repetition:3 Iteration 6
+Number of current samples:60
+Repetition:3 Iteration 7
+Number of current samples:70
+Repetition:3 Iteration 8
+Number of current samples:80
+Repetition:3 Iteration 9
+Number of current samples:90
+Repetition:3 Iteration 10
+Number of current samples:100
+Repetition:4
+Model initialized...
+Repetition:4 Iteration 1
+Number of current samples:10
+Repetition:4 Iteration 2
+Number of current samples:20
+Repetition:4 Iteration 3
+Number of current samples:30
+Repetition:4 Iteration 4
+Number of current samples:40
+Repetition:4 Iteration 5
+Number of current samples:50
+Repetition:4 Iteration 6
+Number of current samples:60
+Repetition:4 Iteration 7
+Number of current samples:70
+Repetition:4 Iteration 8
+Number of current samples:80
+Repetition:4 Iteration 9
+Number of current samples:90
+Repetition:4 Iteration 10
+Number of current samples:100
+Repetition:5
+Model initialized...
+Repetition:5 Iteration 1
+Number of current samples:10
+Repetition:5 Iteration 2
+Number of current samples:20
+Repetition:5 Iteration 3
+Number of current samples:30
+Repetition:5 Iteration 4
+Number of current samples:40
+Repetition:5 Iteration 5
+Number of current samples:50
+Repetition:5 Iteration 6
+Number of current samples:60
+Repetition:5 Iteration 7
+Number of current samples:70
+Repetition:5 Iteration 8
+Number of current samples:80
+Repetition:5 Iteration 9
+Number of current samples:90
+Repetition:5 Iteration 10
+Number of current samples:100
+Repetition:6
+Model initialized...
+Repetition:6 Iteration 1
+Number of current samples:10
+Repetition:6 Iteration 2
+Number of current samples:20
+Repetition:6 Iteration 3
+Number of current samples:30
+Repetition:6 Iteration 4
+Number of current samples:40
+Repetition:6 Iteration 5
+Number of current samples:50
+Repetition:6 Iteration 6
+Number of current samples:60
+Repetition:6 Iteration 7
+Number of current samples:70
+Repetition:6 Iteration 8
+Number of current samples:80
+Repetition:6 Iteration 9
+Number of current samples:90
+Repetition:6 Iteration 10
+Number of current samples:100
+Repetition:7
+Model initialized...
+Repetition:7 Iteration 1
+Number of current samples:10
+Repetition:7 Iteration 2
+Number of current samples:20
+Repetition:7 Iteration 3
+Number of current samples:30
+Repetition:7 Iteration 4
+Number of current samples:40
+Repetition:7 Iteration 5
+Number of current samples:50
+Repetition:7 Iteration 6
+Number of current samples:60
+Repetition:7 Iteration 7
+Number of current samples:70
+Repetition:7 Iteration 8
+Number of current samples:80
+Repetition:7 Iteration 9
+Number of current samples:90
+Repetition:7 Iteration 10
+Number of current samples:100
+Repetition:8
+Model initialized...
+Repetition:8 Iteration 1
+Number of current samples:10
+Repetition:8 Iteration 2
+Number of current samples:20
+Repetition:8 Iteration 3
+Number of current samples:30
+Repetition:8 Iteration 4
+Number of current samples:40
+Repetition:8 Iteration 5
+Number of current samples:50
+Repetition:8 Iteration 6
+Number of current samples:60
+Repetition:8 Iteration 7
+Number of current samples:70
+Repetition:8 Iteration 8
+Number of current samples:80
+Repetition:8 Iteration 9
+Number of current samples:90
+Repetition:8 Iteration 10
+Number of current samples:100
+Repetition:9
+Model initialized...
+Repetition:9 Iteration 1
+Number of current samples:10
+Repetition:9 Iteration 2
+Number of current samples:20
+Repetition:9 Iteration 3
+Number of current samples:30
+Repetition:9 Iteration 4
+Number of current samples:40
+Repetition:9 Iteration 5
+Number of current samples:50
+Repetition:9 Iteration 6
+Number of current samples:60
+Repetition:9 Iteration 7
+Number of current samples:70
+Repetition:9 Iteration 8
+Number of current samples:80
+Repetition:9 Iteration 9
+Number of current samples:90
+Repetition:9 Iteration 10
+Number of current samples:100
+Repetition:10
+Model initialized...
+Repetition:10 Iteration 1
+Number of current samples:10
+Repetition:10 Iteration 2
+Number of current samples:20
+Repetition:10 Iteration 3
+Number of current samples:30
+Repetition:10 Iteration 4
+Number of current samples:40
+Repetition:10 Iteration 5
+Number of current samples:50
+Repetition:10 Iteration 6
+Number of current samples:60
+Repetition:10 Iteration 7
+Number of current samples:70
+Repetition:10 Iteration 8
+Number of current samples:80
+Repetition:10 Iteration 9
+Number of current samples:90
+Repetition:10 Iteration 10
+Number of current samples:100
+Accuray list: 
+[0.47368421052631582, 0.47368421052631582, 0.47368421052631582, 0.47368421052631582, 0.47368421052631582, 0.47368421052631582, 0.47368421052631582, 0.47368421052631582, 0.47368421052631582, 0.47368421052631582]
