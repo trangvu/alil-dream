@@ -64,4 +64,5 @@ Please cite the following papers if you found the resources in this repository u
 ```
 ## References
 [1] Meng Fang, Yuan Li, and Trevor Cohn. 2017. Learning how to active learn: A deep reinforcement learning approach - EMNLP'17
+
 [2] Ming Liu, Wray Buntine, and Gholamreza Haffari. 2018. Learning how to actively learn: A deep imitation learning approach - ACL'18
